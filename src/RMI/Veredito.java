@@ -5,6 +5,6 @@ import java.rmi.RemoteException;
 
 public interface Veredito extends Remote{
 
-	String veredito(boolean confisaoPrisioneiro1, boolean confisaoPrisioneiro2) throws RemoteException;
+	public String veredito(boolean confissaoPrisioneiro1, boolean confissaoPrisioneiro2) throws RemoteException;
 	
 }
